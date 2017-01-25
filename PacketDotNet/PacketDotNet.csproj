@@ -41,9 +41,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="log4net" Condition=" '$(Configuration)' == 'DEBUG' ">
-      <HintPath>Libraries\log4net.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
@@ -88,6 +85,7 @@
     <Compile Include="Ieee80211\RtsFrame.cs" />
     <Compile Include="Ieee80211\SequenceControlField.cs" />
     <Compile Include="IpPacket.cs" />
+    <Compile Include="Log4NetShim.cs" />
     <Compile Include="LSA.cs" />
     <Compile Include="LSAFields.cs" />
     <Compile Include="LSAType.cs" />
