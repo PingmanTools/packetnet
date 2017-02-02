@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>$id$</id>
+    <id>PacketDotNet.Pingman</id>
     <version>$version$</version>
     <title>$title$</title>
     <authors>https://www.nuget.org/profiles/chrisyoung</authors>
